@@ -1,0 +1,43 @@
+#stickyHeader {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	margin-top: 15vh;
+}
+#stickyHeader.locked {
+margin-top: 0 !important;
+}
+#stickyHeader.nottop {
+
+}
+#stickyHeader.shadow {
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.1);
+}
+#mobload.notLoaded {
+	margin-top: -15vh;
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+#stickyHeader {
+	margin-top: 0 !important;
+}
+#mobload.notLoaded {
+	top: 50vh !important;
+	margin-top: -42px !important;
+}
+}
+@media screen and (max-height: 850px) {
+#stickyHeader {
+	margin-top: 0 !important;
+}
+#mobload.notLoaded {
+	top: 50vh !important;
+	margin-top: -42px !important;
+}
+}
+
+
